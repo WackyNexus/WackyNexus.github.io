@@ -6,4 +6,5 @@ var wpm = (function(wpm) {
       test: "Hello world!"
     };
   }(wpm.index || {}));
+  return wpm;
 }(wpm || {}));
