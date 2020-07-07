@@ -3,7 +3,7 @@ var wpm = (function(wpm) {
   wpm.index = (function(index) {
     ow_Write("#output_main", "Loading wpm.index");
     return {
-      test: "Hello world!"
+      'reflex-api': "reflex-api.js"
     };
   }(wpm.index || {}));
   return wpm;
